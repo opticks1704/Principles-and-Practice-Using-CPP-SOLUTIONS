@@ -24,7 +24,9 @@ double sum(vector<int>s) {
     return result;
 }
 
-void input(string s, int val) {
+void input() {
+    string s{};
+    int val{};
     while (cin >> s >> val) {
         for (int i{}; i < daysname.size(); ++i) {
             for (int j{}; j < daysname[i].size(); ++j)
@@ -45,10 +47,7 @@ void display() {
 
 int main() {
     try {
-        string s{};
-        int val{};
-        //test();
-        input(s, val);
+        input();
         display();
         return 0;
     }

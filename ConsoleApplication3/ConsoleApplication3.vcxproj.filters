@@ -18,5 +18,8 @@
     <ClCompile Include="ConsoleApplication3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="chapter5-exercise14.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
